@@ -1,6 +1,10 @@
-<<<<<<< HEAD
 # layout-astronauta
 Layout para projetos com jekyll
+=======
+
+Esse projeto usa o template *minima*, que modificar as coisas?
+Dá uma olhada ali embaixo, sobre como o *minima* funciona.
+
 =======
 # minima
 
@@ -10,28 +14,6 @@ Layout para projetos com jekyll
 
 ![minima theme preview](/screenshot.png)
 
-## Installation
-
-Add this line to your Jekyll site's Gemfile:
-
-```ruby
-gem "minima"
-```
-
-And add this line to your Jekyll site:
-
-```yaml
-theme: minima
-```
-
-And then execute:
-
-    $ bundle
-
-
-## Contents At-A-Glance
-
-Minima has been scaffolded by the `jekyll new-theme` command and therefore has all the necessary files and directories to have a new Jekyll site up and running with zero-configuration.
 
 ### Layouts
 
@@ -220,4 +202,3 @@ To test your theme, run `script/server` (or `bundle exec jekyll serve`) and open
 ## License
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
->>>>>>> commit inicial
