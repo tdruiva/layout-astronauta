@@ -1,0 +1,154 @@
+.lead {
+  font-size: 1.25rem;
+}
+
+.container-fluid {
+  margin-top: opx;
+  padding: 0px 0px;
+}
+
+.container {
+  max-width: 38rem;
+  padding:0;
+  margin-left:  auto;
+  margin-right: auto;
+
+  @media (min-width: 38rem){
+    padding: 0;
+  }
+}
+
+.masthead {
+
+  &-title {
+    font-weight: 300;
+
+    a {
+      color: rgb(215, 242, 247);
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    span {
+      color: #ddd;
+    }
+
+  }
+
+  &-title--small {
+    margin-bottom: .75rem;
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    a {
+      color: rgb(199, 235, 226);
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .masthead-nav {
+    margin-bottom: 0rem;
+
+    a {
+      color: rgb(9, 0, 87);
+      font-weight: 300;
+      text-transform: uppercase;
+      -webkit-transition: all .2s ease;
+         -moz-transition: all .2s ease;
+              transition: all .2s ease;
+
+      &:hover,
+      &:focus {
+        color: rgb(223, 158, 243);
+        text-decoration: none;
+      }
+
+      + a {
+        margin-left: .25rem;
+      }
+    }
+  }
+
+}
+
+.page {
+  &-title {
+    margin-bottom: 2rem;
+  }
+}
+
+.post {
+  &-title {
+    margin-bottom: .25rem;
+  }
+  &-date {
+    margin-bottom: 2rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+}
+
+.list {
+  &-post-title {
+    margin-bottom: .25rem;
+
+    a {
+      color: rgb(16, 165, 235);
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+  &-post-date {
+    margin-bottom: 1rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+}
+
+.projects-list {
+  a {
+    color: rgb(217, 109, 231);
+  }
+}
+
+.toggle {
+  width: 100%;
+  padding: 10px 20px;
+  background: rgb(255, 187, 0);
+  text-align: right;
+  box-sizing: border-box;
+  color: rgb(1, 2, 49);
+  font-size: 20px;
+  display: none;
+}
+@media (max-width:768px)
+{
+  .toggle
+  {
+    display: block;
+  }
+  ul {
+    width: 100%;
+    display: none;
+    
+    li {
+      display: block;
+      text-align: center;
+    }
+
+  }
+  .active {
+    display: block;
+  }
+}

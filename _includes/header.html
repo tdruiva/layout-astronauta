@@ -1,0 +1,36 @@
+
+
+<header class="masthead">
+ 
+ <!--  <h1 class="masthead-title"><a href="/">{{ site.title }}<span>&#39;s blog</span></a></h1>
+     -->
+    <nav class="masthead-nav">
+
+        <div class="toggle">
+            <i class="fa fa-bars menu" aria-hidden="true"></i>
+        </div>
+
+        <ul>
+        {% for page in site.pages %}
+         <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li> 
+        {% endfor %}
+      </ul>
+      </nav>
+      
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script type="text/javascript">
+            $(document).ready(function(){
+                $('.menu').click(function(){
+                    $('ul').toggleClass('active');
+                })
+
+            })
+      </script>
+		
+
+      <div class="container-fluid">
+          <span><img class="img-responsive" src="/assets/img/banner-astronauta.png" style="width:auto;height:auto;margin-right:30px"> </span></a>
+        </div>  
+  
+
+</header>
